@@ -912,3 +912,7 @@ button[disabled],
 #pacific{
 	text-align: center;
 }
+a{
+	color: #FFF;
+	text-decoration: none;
+}
