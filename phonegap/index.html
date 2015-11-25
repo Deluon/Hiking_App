@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="themes/joelTheme.css"/>
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/>
+    <title>My Mobile Page!</title>
+</head>
+<body>
+
+<div data-role="page" id="page" data-theme="d">
+    <div data-role="header">
+        <h1>Home Page</h1>
+    </div>
+    <div data-role="content">
+        <div id="pacific">
+            <img src="images/pacific-nw.jpg">
+        </div>
+        <p>This app is here to help you find fun facts about your local hiking trails, not necessarily for you to hike
+            WITH. Our other services include selling maps of your local trails for your convenience!</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus efficitur ligula, in ultricies dolor
+            hendrerit in. Etiam iaculis, nunc id fringilla maximus, massa massa tincidunt est, at laoreet mauris diam eu
+            diam. Aliquam facilisis consequat est dictum euismod. Vestibulum eu tellus at est tempus ullamcorper sit
+            amet id erat. Nam ac commodo risus. Donec ipsum purus, ornare id justo id, blandit vestibulum purus. Etiam
+            blandit nisl ac aliquet ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Curabitur at magna id magna cursus gravida quis eget ligula.</p>
+        <ul data-role="listview">
+            <li><a href="#page2">Spokane</a></li>
+            <li><a href="#page3">Idaho</a></li>
+            <li><a href="#page4">Contact</a></li>
+        </ul>
+    </div>
+    <div data-role="footer">
+        <h4>&copy Joel Simmons 2015</h4>
+    </div>
+</div>
+
+
+<div data-role="page" id="page2" data-theme="d">
+    <div data-role="header">
+        <h1>Spokane</h1>
+    </div>
+    <div data-role="content">
+        <div data-role="collapsible">
+            <h2>Centennial Trail</h2>
+            <p>A long path stretching to the state line, it is very scenic and relaxing. Great for biking OR hiking!</p>
+        </div>
+        <div data-role="collapsible">
+            <h2>Riverfront Park</h2>
+            <p>Also great for biking or hiking, this scenic park is ideal for a day outside!</p>
+        </div>
+        <br>
+        <ul data-role="listview">
+            <li><a href="#page">Home Page</a></li>
+            <li><a href="#page3">Idaho</a></li>
+            <li><a href="#page4">Content</a></li>
+        </ul>
+    </div>
+    <div data-role="footer">
+        <h4>&copy Joel Simmons 2015</h4>
+    </div>
+</div>
+
+<div data-role="page" id="page3" data-theme="d">
+    <div data-role="header">
+        <h1>Idaho</h1>
+    </div>
+    <div data-role="content">
+        <div data-role="collapsible">
+            <h2>Hiawatha Trail</h2>
+            <p>This is a beautiful expanse of trail that goes for miles. Beautiful scenery and fresh air make this a perfect rail for biking OR hiking!</p>
+        </div>
+        <div data-role="collapsible">
+            <h2>Trail of the Coeur d' Alenes</h2>
+            <p>A beautiful wild path that goes from the mountains to a lake and is great for either a relaxing hike OR bike ride.</p>
+        </div>
+        <br>
+        <ul data-role="listview">
+            <li><a href="#page">Home Page</a></li>
+            <li><a href="#page2">Spokane</a></li>
+            <li><a href="#page4">Contact</a></li>
+        </ul>
+    </div>
+    <div data-role="footer">
+        <h4>&copy Joel Simmons 2015</h4>
+    </div>
+</div>
+
+<div data-role="page" id="page4" data-theme="d">
+    <div data-role="header">
+        <h1>Contact Us</h1>
+    </div>
+    <div data-role="content">
+        <h1>Joel Simmons</h1>
+        <h3>joelsimmons75@live.com</h3>
+        <form>
+            <p>Your Full Name</p>
+            <input type="text">
+            <p>Your Email</p>
+            <input type="text">
+            <p>Comment:</p>
+            <textarea placeholder="Write what you think of us here!"></textarea>
+            <input type="submit" value="Submit">
+            <br>
+        </form>
+        <ul data-role="listview">
+            <li><a href="#page">Home Page</a></li>
+            <li><a href="#page2">Spokane</a></li>
+            <li><a href="#page3">Idaho</a></li>
+        </ul>
+    </div>
+    <div data-role="footer">
+        <h4>&copy Joel Simmons 2015</h4>
+    </div>
+</div>
+</body>
+</html>
